@@ -38,6 +38,7 @@ namespace Jobsite
             //REGISTER ALL REPOS
             services.AddTransient<JobsRepository>();
             services.AddTransient<ContractorsRepository>();
+            services.AddTransient<ContractorJobsRepository>();
         }
 
         //opens a connection to the database and returns the connection

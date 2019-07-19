@@ -1,3 +1,4 @@
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace Jobsite.Models
@@ -11,5 +12,10 @@ namespace Jobsite.Models
         public int PricePerHour { get; set; }
         [Required]
         public int BasePrice { get; set; }
+    }
+    //helper class/model
+    public class ContractorOnJob : Contractor
+    {
+        public DateTimeOffset Timestamp { get; set; }
     }
 }

@@ -1,5 +1,17 @@
 USE jobsite;
 
+-- CREATE TABLE contractorJobs (
+--     id INT AUTO_INCREMENT,
+--     jobId INT NOT NULL,
+--     contractorId INT NOT NULL,
+--     timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+--     PRIMARY KEY (id),
+--     FOREIGN KEY (jobId)
+--         REFERENCES jobs(id),
+--     FOREIGN KEY (contractorId)
+--         REFERENCES contractors(id)
+-- );
+
 -- CREATE TABLE contractors (
 --     id INT AUTO_INCREMENT NOT NULL,
 --     name VARCHAR(50) NOT NULL,
